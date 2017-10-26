@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>LTI OpenERP</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="behavior.js"></script>
+     
+    <style  type="text/css">
+
+        
+            .db-pricing-seven {
+                width: 220px;
+                margin-bottom: 1px;
+                margin-top: 1px;
+                margin-left:2px;
+                margin-right:2px;
+                text-align: center;
+                border: 1px solid #C5C2C2;
+                background-color: #EDEDED;
+            }
+
+                .db-pricing-seven:hover {
+                    margin-top: 3px;
+                    -moz-transition: margin-top 0.25s ease 0s;
+                    -ms-transition: margin-top 0.25s ease 0s;
+                    transition: margin-top 0.25s ease 0s;
+                }
+
+                .db-pricing-seven ul {
+                    list-style: none;
+                    margin: 0;
+                    text-align: center;
+                    padding-left: 0px;
+                }
+
+                .db-pricing-seven ul li {
+                    border-bottom: solid 1px #D8D8D8;
+                    padding-top: 14px;
+                    padding-bottom:14px;
+                    cursor: pointer;
+                    text-transform: uppercase;
+                }
+
+                .db-pricing-seven ul li.price {
+                    background-color: #fff;
+                    padding: 40px 20px 20px 20px;
+                    font-size: 15px;
+                    font-weight: 900;
+                    color: #353c3e;
+                    font-weight: 900;
+                }
+
+                .db-pricing-seven ul li.price i {
+                    padding: 30px;
+                    font-size: 20px;
+                    display: block;
+                }
+
+
+                .db-pricing-seven .pricing-footer {
+                    padding: 20px;
+                }
+
+                .db-pricing-seven .pricing-footer a i {
+                    margin: 5px;
+                    top: 3px;
+                }     
+        </style>
+</head>
+<body>
+
+                            <div class="db-pricing-seven">
+                                                 <div class="pricing-footer" id="signInBtn">
+                                              <center>
+                                                     <img class="img-responsive" src="./icons/lti.png" alt="LTI" width="128" height="98"> 
+                                              </center>
+                                            </div>
+
+
+                                    <ul>
+                                        <li></li>
+                                        <li data-toggle="tooltip" title="Current Timesheet">
+                                            <div class="container" id="timesheet">
+                                                <span class="glyphicon glyphicon-file"></span>
+                                                    Current Timesheet
+                                            </div>
+                                        </li>
+
+                                        <li data-toggle="tooltip" title="Timesheet Activities">
+                                            <div class="container"  id="timesheetactivity">
+                                                <span class="glyphicon glyphicon-time"></span>
+                                                    Timesheet Activities
+                                            </div>
+                                        </li>
+
+                                        <li data-toggle="tooltip" title="Sign In/Out by Project">
+                                              <div class="container"  id="attendance">
+                                                <span class="glyphicon glyphicon-thumbs-up"></span>
+                                                     Sign In/Out by Project
+                                            </div>
+                                        </li>
+                                    </ul>
+                            </div>
+               
+   
+        
+</body>
+</html>

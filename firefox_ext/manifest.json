@@ -1,0 +1,31 @@
+{
+    
+  "description": "Linneman Technologies Inc.  OpenErp Extension Button.",
+  "manifest_version": 2,
+  "name": "Linneman Technologies Inc.  OPenERP",
+  "version": "1.0",
+  "homepage_url": "https://www.odoo.com/",
+  "icons": {
+    "48": "./icons/lti.png"
+  },
+    
+ "applications":{
+     "gecko":{
+         "id":"jjacobo@softechgroupinc.com"
+     }
+ },
+
+  "permissions": [
+    "activeTab"
+  ],
+
+  "browser_action": {
+    "default_icon": "./icons/lti.png",
+    "default_title": "OpenERP",
+    "default_popup": "index.html"
+  },
+    
+ "web_accessible_resources": [
+    "icons/lti.png"
+  ]    
+}

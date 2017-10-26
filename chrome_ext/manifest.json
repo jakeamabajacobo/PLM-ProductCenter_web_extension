@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "name": "Linneman Technologies Inc.  OPenERP",
+  "description":  "Linneman Technologies Inc.  OpenErp Extension Button.",
+  "version": "1.0",
+  "icons": {
+    "64": "lti.png"
+  },
+
+"browser_action": {
+    "default_icon": "lti.png",
+    "default_popup": "index.html",
+    "default_title":"OpenERP"
+},
+"permissions": [
+    "activeTab",
+    "storage"
+]
+    
+}
