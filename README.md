@@ -4,6 +4,7 @@ This sample project  created to support the  OpenERP of Linneman Technologies In
 Supported  Platform:
 -Mozzilla Firefox
 -Google chrome
+-Microsoft Edge
 
 Installation Instruction:
 -open installation_instruction_chrome.png   follow the  image instruction for google  chrome.
